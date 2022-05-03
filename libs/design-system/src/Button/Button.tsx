@@ -1,13 +1,17 @@
+import { ButtonHTMLAttributes } from 'react';
+import classNames from 'classnames/bind';
+
 import styles from './Button.module.css';
 
-/* eslint-disable-next-line */
-export interface ButtonProps {}
+const cx = classNames.bind(styles);
+
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function Button(props: ButtonProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Button!</h1>
-    </div>
+    <button {...props} className={cx('default', 'primary')}>
+      {props.children}
+    </button>
   );
 }
 

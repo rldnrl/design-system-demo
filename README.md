@@ -1,7 +1,5 @@
-# design-system-demo
+# Design System
 
-## 기술 스택
-- TypeScript
-- React
-- Module CSS
-- Vite
+## 1. SCSS를 이용한 Library
+
+## 2. Styled-Components를 이용한 Library

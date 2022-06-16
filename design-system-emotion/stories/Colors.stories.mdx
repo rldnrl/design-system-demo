@@ -1,0 +1,32 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs';
+import colors from '../src/colors';
+
+<Meta title="Colors" />
+
+<ColorPalette>
+  <ColorItem title="Blue" subtitle="colors.blue" colors={{ ...colors.blue }} />
+  <ColorItem
+    title="Light Blue"
+    subtitle="colors.lightBlue"
+    colors={{ ...colors.lightBlue }}
+  />
+  <ColorItem title="Cyan" subtitle="colors.cyan" colors={{ ...colors.cyan }} />
+  <ColorItem
+    title="Indigo"
+    subtitle="colors.indigo"
+    colors={{ ...colors.indigo }}
+  />
+  <ColorItem title="Teal" subtitle="colors.teal" colors={{ ...colors.teal }} />
+  <ColorItem
+    title="Purple"
+    subtitle="colors.purple"
+    colors={{ ...colors.purple }}
+  />
+  <ColorItem
+    title="Deep Purple"
+    subtitle="colors.deepPurple"
+    colors={{ ...colors.deepPurple }}
+  />
+  <ColorItem title="Red" subtitle="colors.red" colors={{ ...colors.red }} />
+  <ColorItem title="Pink" subtitle="colors.pink" colors={{ ...colors.pink }} />
+</ColorPalette>

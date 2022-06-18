@@ -29,12 +29,6 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "name": "design-system-styled-components",
   "author": "rldnrl",
   "module": "dist/design-system-styled-components.esm.js",
@@ -59,8 +53,14 @@
     "@storybook/react": "^6.5.9",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
     "babel-loader": "^8.2.5",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "husky": "^8.0.1",
+    "prettier": "^2.7.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-is": "^18.1.0",

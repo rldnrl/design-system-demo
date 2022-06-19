@@ -13,6 +13,6 @@ const lightBlue = {
   A200: '#40c4ff',
   A400: '#00b0ff',
   A700: '#0091ea',
-} as const;
+} as const
 
-export default lightBlue;
+export default lightBlue

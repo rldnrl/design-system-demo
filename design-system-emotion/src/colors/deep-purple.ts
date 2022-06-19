@@ -13,6 +13,6 @@ const deepPurple = {
   A200: '#7c4dff',
   A400: '#651fff',
   A700: '#6200ea',
-} as const;
+} as const
 
-export default deepPurple;
+export default deepPurple

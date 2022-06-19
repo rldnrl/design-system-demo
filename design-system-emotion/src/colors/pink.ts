@@ -13,6 +13,6 @@ const pink = {
   A200: '#ff4081',
   A400: '#f50057',
   A700: '#c51162',
-} as const;
+} as const
 
-export default pink;
+export default pink

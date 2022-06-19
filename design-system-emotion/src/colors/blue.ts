@@ -13,6 +13,6 @@ const blue = {
   A200: '#448aff',
   A400: '#2979ff',
   A700: '#2962ff',
-} as const;
+} as const
 
-export default blue;
+export default blue

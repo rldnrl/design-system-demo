@@ -13,6 +13,6 @@ const indigo = {
   A200: '#536dfe',
   A400: '#3d5afe',
   A700: '#304ffe',
-} as const;
+} as const
 
-export default indigo;
+export default indigo

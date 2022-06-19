@@ -13,6 +13,6 @@ const red = {
   A200: '#ff5252',
   A400: '#ff1744',
   A700: '#d50000',
-} as const;
+} as const
 
-export default red;
+export default red

@@ -1,0 +1,168 @@
+import { Meta, Typeset, Table } from '@storybook/addon-docs'
+import fontSize from '../src/typography/font-size'
+import fontWeight from '../src/typography/font-weight'
+
+<Meta title="Typography" />
+
+export const typography = {
+  type: {
+    primary: '"Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
+  },
+  weight: {
+    ...fontWeight,
+  },
+  size: {
+    ...fontSize,
+  },
+}
+
+# Typography
+
+---
+
+<br />
+
+## Font Weight
+
+<table>
+  <thead>
+    <tr>
+      <td>
+        <strong>Props</strong>
+      </td>
+      <td>
+        <strong>Font Weight</strong>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>hairline</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>thin</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>light</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>regular</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>medium</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>semibold</td>
+      <td>600</td>
+    </tr>
+    <tr>
+      <td>bold</td>
+      <td>700</td>
+    </tr>
+    <tr>
+      <td>extrabold</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>black</td>
+      <td>900</td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+## Font size
+
+<table>
+  <thead>
+    <tr>
+      <td>
+        <strong>Props</strong>
+      </td>
+      <td>
+        <strong>Font Size</strong>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>xs</td>
+      <td>0.75rem</td>
+    </tr>
+    <tr>
+      <td>sm</td>
+      <td>0.875rem</td>
+    </tr>
+    <tr>
+      <td>md</td>
+      <td>1rem</td>
+    </tr>
+    <tr>
+      <td>lg</td>
+      <td>1.125rem</td>
+    </tr>
+    <tr>
+      <td>xl</td>
+      <td>1.25rem</td>
+    </tr>
+    <tr>
+      <td>2xl</td>
+      <td>1.5rem</td>
+    </tr>
+    <tr>
+      <td>3xl</td>
+      <td>1.875rem</td>
+    </tr>
+    <tr>
+      <td>4xl</td>
+      <td>2.25rem</td>
+    </tr>
+    <tr>
+      <td>5xl</td>
+      <td>3rem</td>
+    </tr>
+    <tr>
+      <td>6xl</td>
+      <td>3.75rem</td>
+    </tr>
+    <tr>
+      <td>7xl</td>
+      <td>4.5rem</td>
+    </tr>
+    <tr>
+      <td>8xl</td>
+      <td>6rem</td>
+    </tr>
+    <tr>
+      <td>9xl</td>
+      <td>8rem</td>
+    </tr>
+  </tbody>
+</table>
+
+<Typeset
+  fontSizes={[
+    typography.size['xs'],
+    typography.size['sm'],
+    typography.size['md'],
+    typography.size['lg'],
+    typography.size['xl'],
+    typography.size['2xl'],
+    typography.size['3xl'],
+    typography.size['4xl'],
+    typography.size['5xl'],
+    typography.size['6xl'],
+    typography.size['7xl'],
+    typography.size['8xl'],
+    typography.size['9xl'],
+  ]}
+  fontWeight={typography.weight.black}
+  sampleText="안녕하세요. Typography 예시입니다."
+  fontFamily={typography.type.primary}
+/>

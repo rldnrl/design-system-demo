@@ -1,4 +1,4 @@
-import Button, { type ButtonProps } from './Button'
+import Button, { ButtonProps } from './Button'
 
 /**
  * Export Props

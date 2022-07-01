@@ -76,10 +76,10 @@ const getButtonVariant = (variant: ButtonVariant) => {
   }
 }
 
-export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+export type ButtonProps = {
   variant?: ButtonVariant
   size?: ButtonSize
-}
+} & ButtonHTMLAttributes<HTMLButtonElement>
 
 export default function Button({
   variant = 'solid-full',
